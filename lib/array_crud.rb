@@ -6,8 +6,8 @@ def create_an_array
   scary_bugs = ["cicada killer", "black widow", "european hornet", "giant centipede" ]
 end
 
-def add_element_to_end_of_array(array, element)
-  
+def add_element_to_end_of_array(scary_bugs, "spider cricket")
+  scary_bugs.push("spider cricket")
 end
 
 def add_element_to_start_of_array(array, element)
